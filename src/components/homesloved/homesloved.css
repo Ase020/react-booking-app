@@ -1,0 +1,149 @@
+.homesloved-list {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.homesloved-item {
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.homesloved-img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.homesloved-name {
+    font-weight: bold;
+    width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.homesloved-city {
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.homesloved-price {
+    font-weight: 500;
+}
+
+.homesloved-ratings {
+ justify-items: center;
+ cursor: pointer;
+}
+
+.homesloved-ratings button {
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.homesloved-ratings span {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.homesloved-reviews {
+    font-weight: lighter;
+    color: green;
+    font-size: 4px;
+    margin-left: 40px;
+
+}
+
+
+
+
+
+
+
+
+/* .homesloved-list {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.homesloved-item {
+    cursor: pointer;
+    flex: 1;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.homesloved-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.homesloved-list{
+    justify-content: center;
+
+}
+
+.homesloved-titles h1{ 
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.homesloved-titles h2{ 
+    font-size: 13px;
+    font-weight: 300;
+    color: gray;
+}
+
+.from-price {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.from-price span{
+    font-size: 15px;
+}
+
+.homesloved-ratings {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+}
+
+.homesloved-ratings h1 {
+    border: none;
+    padding: 3px;
+    background-color: rgb(22, 22, 158);
+    color: white;
+    font-size: 800;
+    border-radius: 5px 5px 5px 0px;
+}
+
+.homesloved-ratings h3 {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.homesloved-ratings p{
+    font-weight: 400;
+    font-size: 11px;
+    color: gray;
+}
+
+
+
+ */
